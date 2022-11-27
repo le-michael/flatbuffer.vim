@@ -34,8 +34,8 @@ hi def link flatbufferConstant		Constant
 syn region 	flatbufferString  		start=/"/ skip=/\\./ end=/"/ contains=@Spell
 hi def link flatbufferString		String
 
-syn region  flatbufferComment start="\/\*" end="\*\/" contains=@Spell
-syn region  flatbufferComment start="//" skip="\\$" end="$" keepend contains=@Spell
-hi def link flatbufferComment Comment
+syn region  flatbufferComment 		start="\/\*" end="\*\/" contains=@Spell
+syn region  flatbufferComment 		start="//" skip="\\$" end="$" keepend contains=@Spell
+hi def link flatbufferComment 		Comment
 
 let b:current_syntax = "flatbuffer"

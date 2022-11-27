@@ -1,5 +1,5 @@
 # flatbuffer.vim
-Vim syntax files for flatbuffer files.
+Vim syntax highlighting for flatbuffer files.
 
 ## Install
 
